@@ -1,1 +1,1 @@
-console.log("SHOPSWIFTLY")
+console.log("Server")
