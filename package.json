@@ -4,7 +4,9 @@
   "description": "Your Express Gateway to Style and Saving",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js",
+    "server":"nodemon server.js"
   },
   "author": "Abdul Hanan",
   "license": "ISC",
