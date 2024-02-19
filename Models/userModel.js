@@ -16,6 +16,10 @@ const UserModel = mongoose.Schema(
       type: String,
       required: [true, "Password is Required"],
     },
+    confrimPassword: {
+        type: String,
+        required: [true, "Password is Required"],
+      },
     phone: {
       type: String,
       required: [true, "Phone Number is Required"],
