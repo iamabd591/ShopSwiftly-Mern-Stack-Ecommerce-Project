@@ -1,6 +1,8 @@
 const express = require("express");
-const registerController = require('../Controller/authController').default
-const Router = express.Router();
-Router.post('/register',registerController)
+const { registerUser, loginUser } = require("../Controller/authController");
+const {rquireSignIn, isAdmin} = require('../Middleware/validateToken')
+const router = express.Router();
+router.post("/register", registerUser);
+router.post("/login", loginUser);
 
-export default Router
+module.exports = router;
