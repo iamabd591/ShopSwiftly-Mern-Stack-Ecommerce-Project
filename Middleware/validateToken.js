@@ -4,6 +4,8 @@ const userModel = require("../Models/userModel");
 export const rquireSignIn = asynchandler(async (req, res, next) => {
   try {
     const decode = Jwt.verify(req.headers.authorization, process.env.JWT_TOKEN);
+    req.user = decode;
+    next();
   } catch (e) {
     console.log(e);
   }
