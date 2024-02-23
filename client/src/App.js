@@ -17,7 +17,7 @@ function App() {
         <Route path="/signIn" element={<Sign />} />
         <Route path="/signUp" element={<Signup />} />
         <Route path="/policy" element={<Policy />} />
-        <Route path="/*" element={<PageNotFound />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </>
   );
