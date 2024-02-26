@@ -7,16 +7,19 @@ import {
   FaCcMastercard,
   FaGooglePay,
   FaCcApplePay,
+  FaLocationDot,
 } from "react-icons/fa6";
 import { SiAmericanexpress } from "react-icons/si";
 import { NavLink } from "react-router-dom";
 import {
   FaFacebook,
   FaInstagramSquare,
-  FaPinterestSquare,
   FaYoutube,
   FaWhatsapp,
+  FaMobileAlt,
+  FaLinkedin,
 } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 export default function Footer() {
   return (
     <>
@@ -61,16 +64,16 @@ export default function Footer() {
 
             <ul>
               <li>
-                <div className="twitter icons">
-                  <FaXTwitter />
+                <div className="linked icons">
+                  <FaLinkedin />
                 </div>
               </li>
             </ul>
 
             <ul>
               <li>
-                <div className="pintrest icons">
-                  <FaPinterestSquare />
+                <div className="twitter icons">
+                  <FaXTwitter />
                 </div>
               </li>
             </ul>
@@ -132,6 +135,39 @@ export default function Footer() {
           </div>
         </div>
         <div className="payment">
+          <div className="infomation">
+            <ul>
+              <li>
+                <p>
+                  <span>
+                    <MdEmail />
+                  </span>{" "}
+                  Info@ShopSwifly.com
+                </p>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <p>
+                  <span>
+                    <FaLocationDot />
+                  </span>{" "}
+                  15205 North Kierland Blvd. Suite 100
+                </p>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <p>
+                  <span>
+                    <FaMobileAlt />
+                  </span>{" "}
+                  +241 789256 3773
+                </p>
+              </li>
+            </ul>
+          </div>
           <div className="method">
             <ul>
               <li>
@@ -175,7 +211,7 @@ export default function Footer() {
       </div>
       <div className="rights">
         <h4>
-          ALL Right of ShopSwiftly <FaShopify /> &copy; is Reserved-2024-25
+          &copy;2024-25 ShopSwiftly <FaShopify /> All rights reserved.
         </h4>
       </div>
     </>
