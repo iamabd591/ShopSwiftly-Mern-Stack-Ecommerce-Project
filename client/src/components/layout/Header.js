@@ -138,7 +138,7 @@ export default function Header() {
 
               <li className="nav-item">
                 <NavLink to="/accessories" className="nav-link" tabIndex="-1">
-                  | Accessories
+                  | Others
                 </NavLink>
               </li>
 
