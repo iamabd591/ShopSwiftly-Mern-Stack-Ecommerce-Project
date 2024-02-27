@@ -32,10 +32,10 @@ export default function Footer() {
             </span>
           </h2>
           <p>
-            Technology is the practical application of scientific knowledge to
-            solve real-world problems especially in industries and everyday
-            life. It includes a wide range of tools, systems, and methods to
-            solve problems or perform specific tasks
+            Welcome to ShopSwifly! Your go-to destination for hassle-free online
+            shopping. Discover a vast array of quality products from global
+            brands. Experience seamless browsing, secure transactions, and swift
+            worldwide shipping.
           </p>
           <div className="Social">
             <ul>
@@ -88,50 +88,77 @@ export default function Footer() {
           </div>
         </div>
         <div className="Footer-Nav">
-          <h4>Quicl Links</h4>
-          <div className="nav">
-            <ul>
-              <li>
-                <NavLink to="/" className="nav-link">
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/" className="nav-link">
-                  Blog
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/" className="nav-link">
-                  About Us
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/" className="nav-link">
-                  Contact Us
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/" className="nav-link">
-                  Register
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/" className="nav-link">
-                  FeadBack
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/" className="nav-link">
-                  Privacy Policy
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/" className="nav-link">
-                  Customer Support
-                </NavLink>
-              </li>
-            </ul>
+          <h4>Quick Links</h4>
+          <div className="links-nave">
+            <div className="nav">
+              <ul>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    Services
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    About us
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    Contact us
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    Register
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    Blog
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+
+            <div className="nav">
+              <ul>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    Top Products
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    Catalogs
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    News
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    FeadBack
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    Customer Support
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/" className="nav-link">
+                    Privacy Policy
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="payment">
@@ -168,6 +195,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
           <div className="method">
             <ul>
               <li>
@@ -211,7 +239,7 @@ export default function Footer() {
       </div>
       <div className="rights">
         <h4>
-          &copy;2024-25 ShopSwiftly <FaShopify /> All rights reserved.
+          &copy; 2024-25 ShopSwiftly <FaShopify /> All rights reserved.
         </h4>
       </div>
     </>

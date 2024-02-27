@@ -26,7 +26,7 @@ export default function Header() {
                   placeholder="Type To Search Products"
                   aria-label="Search"
                 />
-                <button className="btn btn-outline-success" type="submit">
+                <button className="btn btn btn-primary" type="submit">
                   Search
                 </button>
               </form>
@@ -37,10 +37,12 @@ export default function Header() {
             <div className="account">
               <div className="nav-item">
                 <NavLink to="/signin" className="nav-link" aria-current="page">
-                  Sign In Or Create Account
-                  <span>
-                    <FaUserAlt />
-                  </span>
+                  <p>
+                    Sign In Or Create Account
+                    <span>
+                      <FaUserAlt />
+                    </span>
+                  </p>
                 </NavLink>
               </div>
             </div>
@@ -50,10 +52,12 @@ export default function Header() {
             <div className="Shopping">
               <div className="nav-item">
                 <NavLink to="/cart" className="nav-link" aria-current="page">
-                  Shopping
-                  <span>
-                    <FaShoppingCart />
-                  </span>
+                  <p>
+                    Shopping
+                    <span>
+                      <FaShoppingCart />
+                    </span>
+                  </p>
                 </NavLink>
               </div>
             </div>
@@ -137,12 +141,6 @@ export default function Header() {
               </li>
 
               <li className="nav-item">
-                <NavLink to="/accessories" className="nav-link" tabIndex="-1">
-                  | Others
-                </NavLink>
-              </li>
-
-              <li className="nav-item">
                 <NavLink to="/electronic" className="nav-link" tabIndex="-1">
                   | Electronic
                 </NavLink>
@@ -156,7 +154,7 @@ export default function Header() {
 
               <li className="nav-item">
                 <NavLink to="/Blog" className="nav-link" tabIndex="-1">
-                  | Blog |
+                  | Other |
                 </NavLink>
               </li>
             </ul>

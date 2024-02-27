@@ -6,7 +6,7 @@ export default function Layout(props) {
   return (
     <div>
       <Header/>
-      {props.children}
+     <main style={{minHeight:'100vh'}}>{props.children}</main> 
       <Footer/>
     </div>
   )
