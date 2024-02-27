@@ -254,3 +254,29 @@ section ul {
   align-items: center;
   background: #020205;
 }
+.notfound {
+  background: rgb(240, 4, 167);
+  background: linear-gradient(
+    293deg,
+    rgba(240, 4, 167, 1) 49%,
+    rgba(4, 104, 251, 1) 100%
+  );
+}
+.text-404 {
+  font-size: 200px;
+}
+.danger {
+  color: #fff !important;
+  font-size: 40px;
+  font-weight: 500;
+}
+.p-text,
+.lead-txt {
+  font-size: 40px !important;
+  font-weight: 500 !important;
+}
+.btn-home {
+  font-size: 24px !important;
+  font-weight: 500;
+  border-radius: 0 !important;
+}
