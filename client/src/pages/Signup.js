@@ -5,9 +5,12 @@ const Signup = () => {
   return (
     <Layout>
       <div className="register-form">
-        <div className="form-image">
-        {/* <img src={'../images/Registration.gif'} alt="Description of the image" /> */}
-        </div>
+        {/* <div className="form-image">
+          <img
+            src={"../images/Registration.gif"}
+            alt="Description of the image"
+          />
+        </div> */}
         <div className="input-form">
           <form className="form-register" action="#" method="post">
             <h3 className="heading">Personal Information</h3>

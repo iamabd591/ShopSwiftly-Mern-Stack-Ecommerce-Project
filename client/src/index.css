@@ -22,6 +22,7 @@ section ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  width: 100%;
 }
 .logo {
   font-size: 50px;
@@ -31,7 +32,7 @@ section ul {
   height: 100%;
 }
 
-.logo spam {
+.logo span {
   color: rgb(255, 255, 255);
 }
 
@@ -89,6 +90,10 @@ section ul {
     rgba(17, 133, 181, 1) 100%
   ) !important;
 }
+.nav-link {
+  font-size: 15px;
+  text-align: center;
+}
 .nav-link:hover {
   color: #ffffff !important;
 }
@@ -112,7 +117,7 @@ section ul {
   padding: 10px 12px;
 }
 .info h2 {
-  font-size: 60px;
+  font-size: 30px;
   text-decoration: none;
   color: #fff;
   margin-top: 25px;
@@ -121,6 +126,7 @@ section ul {
 }
 .info p {
   font-size: 22px;
+  width:100%;
   color: #fff;
   text-align: justify;
 }
@@ -140,7 +146,6 @@ section ul {
   font-size: 40px;
   text-decoration: none;
   color: #fff;
-  margin-top: 25px;
   padding: 8px;
   text-align: center;
 }
@@ -150,12 +155,12 @@ section ul {
 }
 .Footer-Nav .nav ul li {
   list-style: none;
-  font-size: 20px;
 }
 .Footer-Nav .nav ul li .nav-link {
   color: #ffffff;
   display: flex;
   justify-content: space-between;
+  font-size: 18px;
 }
 .Footer-Nav .nav ul li .nav-link:hover {
   text-decoration: underline;
@@ -168,7 +173,7 @@ section ul {
   list-style-type: none;
   float: left;
   margin: 16px;
-  font-size: 30px;
+  font-size: 20px;
   cursor: pointer;
 }
 .youtube {
@@ -205,12 +210,12 @@ section ul {
 }
 .infomation ul li p {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
 }
 .infomation ul li p span {
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
 }
 .method {
   width: 100%;
@@ -221,7 +226,7 @@ section ul {
   list-style-type: none;
   float: left;
   margin: 15px 10px 15px 8px;
-  font-size: 70px;
+  font-size: 50px;
   cursor: pointer;
 }
 .paypal {
@@ -279,7 +284,7 @@ section ul {
 .btn-home {
   font-size: 24px !important;
   font-weight: 500;
-  border-radius: 0 !important;
+  border-radius: 0% !important;
 }
 .register-form {
   width: 100%;
@@ -293,9 +298,10 @@ section ul {
 .form-image {
   width: 50%;
   height: 100%;
-  /* background-image: url('../src/images/Registration.jpg');
-  background-size: cover;
-  background-repeat: no-repeat; */
+}
+.form-image img {
+  width: 100%;
+  height: 100%;
 }
 .input-form {
   width: 50%;
@@ -357,9 +363,9 @@ input {
 }
 .form-btn {
   text-align: center;
-  width:100%;
+  width: 100%;
   background: #0468fb;
-  height:45px;
+  height: 45px;
 }
 .btn-submit {
   font-size: 25px;
