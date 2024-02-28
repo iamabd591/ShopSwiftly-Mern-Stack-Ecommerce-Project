@@ -126,7 +126,7 @@ section ul {
 }
 .info p {
   font-size: 22px;
-  width:100%;
+  width: 100%;
   color: #fff;
   text-align: justify;
 }
@@ -293,7 +293,7 @@ section ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #3b3b3d;
+  background: #ffffff;
 }
 .form-image {
   width: 50%;
