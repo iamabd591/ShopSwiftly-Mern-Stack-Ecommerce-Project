@@ -4,8 +4,9 @@ import Aboutus from "./pages/Aboutus";
 import Contactus from "./pages/Contactus";
 import Sign from "./pages/Sign";
 import Signup from "./pages/Signup";
-import PageNotFound from "./pages/PageNotFound";
 import Policy from "./pages/Policy";
+import Feadback from "./pages/feadback";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/signIn" element={<Sign />} />
         <Route path="/signUp" element={<Signup />} />
         <Route path="/policy" element={<Policy />} />
+        <Route path="/feadback" element={<Feadback />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </>

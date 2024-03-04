@@ -38,10 +38,10 @@ const Sign = () => {
             </div>
 
             <div className="form-links">
-            <div className="input-check">
-              <input type="checkbox" id="remember" />
-              <lable htmlFor="remember">Remember Me</lable>
-            </div>
+              <div className="input-check">
+                <input type="checkbox" id="remember" />
+                <lable htmlFor="remember">Remember Me</lable>
+              </div>
               <div className="fogot-pass">
                 <Link to="/forgot" tabIndex="-1">
                   {" "}
@@ -54,16 +54,16 @@ const Sign = () => {
               <button> Log in </button>
             </div>
             <div className="create-account">
-                <p>
-                  Don't Have an account{" "}
-                  <spam>
-                    {" "}
-                    <Link to="/signup" tabIndex="-1">
-                      Click Here
-                    </Link>
-                  </spam>
-                </p>
-              </div>
+              <p>
+                Don't Have an account{" "}
+                <spam>
+                  {" "}
+                  <Link to="/signup" tabIndex="-1">
+                    Click Here
+                  </Link>
+                </spam>
+              </p>
+            </div>
           </form>
         </div>
       </div>

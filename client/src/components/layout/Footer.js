@@ -143,7 +143,7 @@ export default function Footer() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/" className="nav-link">
+                  <NavLink to="/feadback" className="nav-link">
                     FeadBack
                   </NavLink>
                 </li>

@@ -380,6 +380,7 @@ input {
   width: 100%;
   background: #ffff;
   padding: 40px 28px;
+  background: #ffff;
 }
 .form-div {
   width: 550px;
@@ -440,14 +441,29 @@ input {
   margin-left: 105px;
   margin-bottom: 20px;
 }
-.login-btn button{
+.login-btn button {
   border: none;
   outline: none;
-  width:80px;
+  width: 80px;
   height: 40px;
   background: #0468fb;
-  color:#fff;
+  color: #fff;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
+}
+.feadback-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  width: 100%;
+  background: #ffff;
+  padding: 40px 28px;
+  background:#fff;
+}
+.feadback-main .feaback-form{
+width:700px;
+height:100%;
+border: 1px solid black;
 }
