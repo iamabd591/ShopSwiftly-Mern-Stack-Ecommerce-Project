@@ -15,7 +15,7 @@ function feadback() {
                   type="name"
                   placeholder="Enter Your Name"
                   required
-                  autoComplete=""
+                  autoComplete="off"
                 />
               </div>
               <div className="input-field">
@@ -24,12 +24,12 @@ function feadback() {
                   type="email"
                   placeholder="Enter Your Eamil"
                   required
-                  autoComplete=""
+                  autoComplete="off"
                 />
               </div>
               <div className="message">
                 <label>Message</label>
-                <textarea cols={40} rows={3} required />
+                <textarea cols={125} rows={10} required />
               </div>
 
               <div className="feadback-btn">
