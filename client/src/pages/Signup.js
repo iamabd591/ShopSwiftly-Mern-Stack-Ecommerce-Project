@@ -1,22 +1,23 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Layout from "../components/layout/Layout";
 
-const Signup = () => {
+function Signup() {
   return (
     <Layout>
       <div className="register-form">
-        {/* <div className="form-image">
-          <img
+        <div className="form-image">
+          {/* <img
             src="../images/Registration.jpg"
             alt="Description of the image"
-          />
-        </div> */}
+          /> */}
+        </div>
 
         <div className="input-form">
           <form className="form-register" action="#" method="post">
             <h3 className="heading">Personal Information</h3>
             <p>Please Enter your information so we can build your account.</p>
-            <div className="first-name">
+            <div className="name">
               <fieldset>
                 <legend>
                   First Name <span> * </span>
@@ -30,23 +31,7 @@ const Signup = () => {
                   required
                 />
               </fieldset>
-            </div>
-
-            <div className="last-name">
-              <fieldset>
-                <legend>
-                  Last Name <span> * </span>
-                </legend>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="last-name"
-                  name="last-name"
-                  placeholder="Last Name"
-                  required
-                />
-              </fieldset>
-            </div>
+           </div>
 
             <div className="form-email">
               <fieldset>
@@ -94,38 +79,6 @@ const Signup = () => {
               </fieldset>
             </div>
 
-            <div className="form-address">
-              <fieldset>
-                <legend>
-                  Address <span> * </span>
-                </legend>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="address"
-                  name="address"
-                  placeholder="Address"
-                  required
-                />
-              </fieldset>
-            </div>
-
-            <div className="form-phone">
-              <fieldset>
-                <legend>
-                  Phone <span> * </span>
-                </legend>
-                <input
-                  type="tel"
-                  className="form-control"
-                  id="phone"
-                  name="phone"
-                  placeholder="Phone"
-                  required
-                />
-              </fieldset>
-            </div>
-
             <div className="form-gender">
               <fieldset>
                 <legend>
@@ -158,23 +111,7 @@ const Signup = () => {
               </fieldset>
             </div>
 
-            <div className="form-ssn">
-              <fieldset>
-                <legend>
-                  Social Scurity No <span> * </span>
-                </legend>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="SSN"
-                  name="SSN"
-                  placeholder="SSN\CNIC\Passport No"
-                  required
-                />
-              </fieldset>
-            </div>
-
-            <div className="form-condition">
+            {/* <div className="form-condition">
               <fieldset>
                 <div className="form-check">
                   <input
@@ -188,16 +125,18 @@ const Signup = () => {
                   </label>
                 </div>
               </fieldset>
+            </div> */}
 
-              <div className="form-btn">
-                <button className="btn-submit">Create Account</button>
-              </div>
+            <div className="form-btn">
+              <NavLink to="./Signup_step_2" className="btn-submit">
+                Next Step
+              </NavLink>
             </div>
           </form>
         </div>
       </div>
     </Layout>
   );
-};
+}
 
 export default Signup;

@@ -282,25 +282,28 @@ section ul {
   font-weight: 500;
   border-radius: 0% !important;
 }
-.register-form {
+.register-form  {
   width: 100%;
   height: 100%;
-  padding: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #ffffff;
 }
-.form-image {
+.register-form .form-image {
   width: 50%;
   height: 100%;
 }
-.form-image img {
+.register-form .form-image img {
   width: 100%;
   height: 100%;
 }
-.input-form {
+.register-form .input-form {
   width: 50%;
+  height: 100%;
+}
+.input-form .form-register {
+  width: 100%;
   height: 100%;
   background: rgb(11, 2, 8);
   background: linear-gradient(
@@ -308,31 +311,35 @@ section ul {
     rgba(11, 2, 8, 1) 46%,
     rgba(4, 104, 251, 1) 93%
   );
-  padding: 24px;
   box-shadow: 17px 10px 14px -1px rgba(0, 0, 0, 0.38);
   -webkit-box-shadow: 17px 10px 14px -1px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 17px 10px 14px -1px rgba(0, 0, 0, 0.38);
   color: #ffffff;
 }
-.input-form .heading {
+
+.input-form .form-register .heading {
   font-size: 50px;
   font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
 }
-.input-form p {
-  font-size: 22px;
+.input-form .form-register p {
+  font-size: 18px;
   font-weight: 100;
+  text-align: center;
 }
+
 fieldset {
-  padding: 20px;
+  padding: 10px;
 }
 fieldset legend {
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
 }
 fieldset legend span {
   color: #ff0000;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 900;
 }
 label {
@@ -479,17 +486,17 @@ input {
   text-align: center;
   padding: 30px;
 }
-.feadback-main .feaback-form  h2{
+.feadback-main .feaback-form h2 {
   font-size: 40px;
   font-weight: 700;
   padding-bottom: 20px;
 }
 .feadback-main .feaback-form .input-field {
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   margin: 4px;
 }
-.feadback-main .feaback-form .input-field label{
+.feadback-main .feaback-form .input-field label {
   display: block;
   text-align: left;
   margin-left: 170px;
@@ -497,20 +504,20 @@ input {
   font-size: 16px;
   font-weight: 700;
 }
-.feadback-main .feaback-form .input-field input{
-  width:75%;
-  height:50px;
-  outline:none;
+.feadback-main .feaback-form .input-field input {
+  width: 75%;
+  height: 50px;
+  outline: none;
   padding: 12px;
   margin-bottom: 5px;
   border: none;
 }
-.message{
-  width:100%;
-  height:100%;
+.message {
+  width: 100%;
+  height: 100%;
   margin: 4px;
 }
-.message label{
+.message label {
   display: block;
   text-align: left;
   margin-left: 170px;
@@ -518,7 +525,76 @@ input {
   font-size: 16px;
   font-weight: 700;
 }
-textarea{
-  border:none;
-  outline:none;
+textarea {
+  border: none;
+  outline: none;
+}
+.contact-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-main .map {
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+}
+.contact-main .contact-info {
+  width: 50%;
+  height: 630px;
+  border: 1px solid black;
+  background: linear-gradient(
+    14deg,
+    rgba(11, 2, 8, 1) 46%,
+    rgba(4, 104, 251, 1) 93%
+  );
+  padding: 24px;
+  box-shadow: 17px 10px 14px -1px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 17px 10px 14px -1px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 17px 10px 14px -1px rgba(0, 0, 0, 0.38);
+  color: #ffffff;
+  padding: 40px;
+}
+.contact-main .contact-info h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.contact-line {
+  width: 100%;
+  height: 40px;
+}
+.contact-line p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px;
+  margin: 28px 10px 28px 110px;
+}
+.contact-line p span {
+  margin-right: 10px;
+}
+.contact-bttn {
+  margin: 28px 10px 28px 115px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-bttn button {
+  width: 25%;
+  height: 40px;
+  font-size: 20px;
+  margin: 10px;
+}
+.login-register-btn {
+  background: #001aff;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
 }
