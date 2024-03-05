@@ -7,6 +7,7 @@ function Signup() {
     <Layout>
       <div className="signup-main">
         <form method="post" action="#">
+
           <div className="personal-info">
             <h2>Personal Information</h2>
             <p>Enter Your Personal Information</p>
@@ -82,6 +83,99 @@ function Signup() {
               <label htmlFor="male">Male</label>
               <input type="radio" id="female" name="gender" value="female" />
               <label htmlFor="female">Female</label>
+            </div>
+            <div className="gender">
+              <label>
+                Date of Birth<span>* </span>
+              </label>
+              <input type="date"  />
+            </div>
+          </div>
+
+          <div className="residitional-info">
+            <h2>Resedentional Information</h2>
+            <p>Enter Your Personal Information</p>
+
+            <div className="address-info">
+              <div className="address">
+                <div>
+                  <label>
+                  Social Sercurity No<span>*</span>
+                  </label>
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="SSN\CNIC\PASSPORT NO"
+                    required
+                    autoCapitalize="off"
+                  />
+                </div>
+              </div>
+              <div className="address">
+                <div>
+                  <label>
+                    Address<span>*</span>
+                  </label>
+                </div>
+                <div>
+                  <input
+                    type="text"
+                    placeholder="Enter Your Address"
+                    required
+                    autoCapitalize="off"
+                  />
+                </div>
+              </div>
+              <div className="Street">
+                <div className="street-no">
+                  {" "}
+                  <label>
+                    Street No<span>*</span>
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Street No"
+                    required
+                    autoCapitalize="off"
+                  />
+                </div>
+                <div className="Postal">
+                  <label>
+                    Postal Code<span>*</span>
+                  </label>
+                  <input
+                    type="tel"
+                    placeholder="Postal Code"
+                    required
+                    autoCapitalize="off"
+                  />
+                </div>
+              </div>
+              <div className="Codes">
+                <div className="code">
+                  <label>
+                    Country Code<span>*</span>
+                  </label>
+                  <input
+                    type="tel"
+                    placeholder="Code"
+                    required
+                    autoCapitalize="off"
+                  />
+                </div>
+                <div className="phone-no">
+                <label>
+                    Phone No<span>*</span>
+                  </label>
+                  <input
+                    type="tel"
+                    placeholder="Phone Number"
+                    required
+                    autoCapitalize="off"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </form>
