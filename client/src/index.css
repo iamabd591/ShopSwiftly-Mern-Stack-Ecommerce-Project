@@ -282,28 +282,96 @@ section ul {
   font-weight: 500;
   border-radius: 0% !important;
 }
-.signup-main{
+.signup-main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
-  height:100%;
-  background: #fff;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    14deg,
+    rgb(255, 255, 255) 46%,
+    rgb(2, 64, 157) 93%
+  );
+  padding: 24px;
 }
-.personal-info{
-  border:1px solid black;
-  width:33%;
-  height:100%;
+.signup-main form {
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
 }
-.residitional-info{
-  border:1px solid black;
-  width:33%;
-  height:100%;
+.personal-info {
+  background: #000;
+  width: 33%;
+  height: 100%;
+  padding: 20px;
+  color: #fff;
 }
-.bank-info{
-  border:1px solid black;
-  width:33%;
-  height:100%;
+.personal-info h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 12px;
+}
+.personal-info p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+.residitional-info {
+  border: 1px solid black;
+  width: 33%;
+  height: 100%;
+}
+.name,
+.password-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 4px 8px 4px;
+  margin: 10px 0 12px 0;
+}
+.name input,
+.password-field input {
+  outline: none;
+  width: 90%;
+  height: 50px;
+  padding: 4px;
+  font-size: 20px;
+}
+.email {
+  display: block;
+  padding: 8px 4px 8px 4px;
+  margin: 10px 0 12px 0;
+}
+
+.email input {
+  outline: none;
+  width: 95%;
+  height: 50px;
+  padding: 4px;
+  font-size: 20px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+span {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 5px;
+  color: #ff0000;
+}
+
+.gender {
+  margin-top: 20px;
+}
+.bank-info {
+  border: 1px solid black;
+  width: 33%;
+  height: 100%;
 }
 .main {
   display: flex;

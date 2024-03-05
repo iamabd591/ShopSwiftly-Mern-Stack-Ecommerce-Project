@@ -6,15 +6,15 @@ function Signup() {
   return (
     <Layout>
       <div className="signup-main">
-        <div className="personal-info">
-          <h1>Personal Information</h1>
-          <p>Enter Your Personal Information</p>
-          <form method="post" action="#">
+        <form method="post" action="#">
+          <div className="personal-info">
+            <h2>Personal Information</h2>
+            <p>Enter Your Personal Information</p>
             <div className="name">
               <div className="first-name">
-                <lable>
-                  First Name<spna>*</spna>
-                </lable>
+                <label>
+                  First Name<span>*</span>
+                </label>
                 <input
                   type="text"
                   placeholder="First Name"
@@ -23,9 +23,9 @@ function Signup() {
                 />
               </div>
               <div className="last-name">
-                <lable>
-                  Last Name<spna>*</spna>
-                </lable>
+                <label>
+                  Last Name<span>*</span>
+                </label>
                 <input
                   type="text"
                   placeholder="Last Name"
@@ -35,21 +35,26 @@ function Signup() {
               </div>
             </div>
             <div className="email">
-              <lable>
-                Email<spna>*</spna>
-              </lable>
-              <input
-                type="email"
-                placeholder="Enter Your Email"
-                required
-                autoComplete="off"
-              />
+              <div>
+                {" "}
+                <label>
+                  Email<span>*</span>
+                </label>
+              </div>
+              <div>
+                <input
+                  type="email"
+                  placeholder="Enter Your Email"
+                  required
+                  autoComplete="off"
+                />
+              </div>
             </div>
             <div className="password-field">
               <div className="Password">
-                <lable>
-                  Password<spna>*</spna>
-                </lable>
+                <label>
+                  Password<span>*</span>
+                </label>
                 <input
                   type="password"
                   placeholder="Password"
@@ -58,9 +63,9 @@ function Signup() {
                 />
               </div>
               <div className="Cpassword">
-                <lable>
-                  Confrim Password<spna>*</spna>
-                </lable>
+                <label>
+                  Confrim Password<span>*</span>
+                </label>
                 <input
                   type="password"
                   placeholder="Confrim Password"
@@ -70,14 +75,16 @@ function Signup() {
               </div>
             </div>
             <div className="gender">
-              <label>Gender:</label>
+              <label>
+                Gender<span>* </span>
+              </label>
               <input type="radio" id="male" name="gender" value="male" />
               <label htmlFor="male">Male</label>
               <input type="radio" id="female" name="gender" value="female" />
               <label htmlFor="female">Female</label>
             </div>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
     </Layout>
   );
