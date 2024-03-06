@@ -580,14 +580,13 @@ textarea {
   align-items: center;
 }
 .contact-main .map {
+  margin-top:4px;
   width: 50%;
   height: 100%;
-  border: 1px solid black;
 }
 .contact-main .contact-info {
   width: 50%;
   height: 630px;
-  border: 1px solid black;
   background: linear-gradient(
     14deg,
     rgba(11, 2, 8, 1) 46%,
