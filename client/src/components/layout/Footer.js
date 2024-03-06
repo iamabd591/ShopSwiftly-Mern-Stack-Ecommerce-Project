@@ -103,17 +103,17 @@ export default function Footer() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/" className="nav-link">
+                  <NavLink to="/aboutus" className="nav-link">
                     About us
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/" className="nav-link">
+                  <NavLink to="/contactus" className="nav-link">
                     Contact us
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/" className="nav-link">
+                  <NavLink to="/signup" className="nav-link">
                     Register
                   </NavLink>
                 </li>
