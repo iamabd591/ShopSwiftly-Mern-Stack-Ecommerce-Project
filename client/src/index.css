@@ -724,20 +724,20 @@ textarea {
   -moz-box-shadow: 17px 10px 14px -1px rgba(0, 0, 0, 0.38);
   color: #ffffff;
 }
-.home-main .first-section {
+.first-section {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 16px 14px;
+ 
 }
-.home-main .first-section .card {
+.card {
   width: 25%;
   height: 100%;
   box-shadow: 17px 10px 14px -1px rgba(0, 0, 0, 0.38);
   -webkit-box-shadow: 17px 10px 14px -1px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 17px 10px 14px -1px rgba(0, 0, 0, 0.38);
   color: #ffffff;
-  margin-left: 8px;
 }
 .home-main .first-section .card .card-img {
   height: 200px;
