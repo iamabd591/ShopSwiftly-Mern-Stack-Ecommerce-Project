@@ -6,73 +6,79 @@ function Signup() {
     <Layout>
       <div className="signup-main">
         <form method="post" action="#">
+          {/* Personal Information */}
           <div className="personal-info">
             <h2>Personal Information</h2>
             <p>Enter Your Personal Information</p>
             <div className="name">
+              {/* First Name */}
               <div className="first-name">
-                <label>
+                <label htmlFor="firstName">
                   First Name<span>*</span>
                 </label>
                 <input
                   type="text"
+                  id="firstName"
                   placeholder="First Name"
                   required
                   autoCapitalize="off"
                 />
               </div>
+              {/* Last Name */}
               <div className="last-name">
-                <label>
+                <label htmlFor="lastName">
                   Last Name<span>*</span>
                 </label>
                 <input
                   type="text"
+                  id="lastName"
                   placeholder="Last Name"
                   required
                   autoCapitalize="off"
                 />
               </div>
             </div>
+            {/* Email */}
             <div className="email">
-              <div>
-                {" "}
-                <label>
-                  Email<span>*</span>
-                </label>
-              </div>
-              <div>
-                <input
-                  type="email"
-                  placeholder="Enter Your Email"
-                  required
-                  autoComplete="off"
-                />
-              </div>
+              <label htmlFor="email">
+                Email<span>*</span>
+              </label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Your Email"
+                required
+                autoComplete="off"
+              />
             </div>
+            {/* Password */}
             <div className="password-field">
               <div className="Password">
-                <label>
+                <label htmlFor="password">
                   Password<span>*</span>
                 </label>
                 <input
                   type="password"
+                  id="password"
                   placeholder="Password"
                   required
                   autoCapitalize="off"
                 />
               </div>
               <div className="Cpassword">
-                <label>
-                  Confrim Password<span>*</span>
+                <label htmlFor="confirmPassword">
+                  Confirm Password<span>*</span>
                 </label>
                 <input
                   type="password"
-                  placeholder="Confrim Password"
+                  id="confirmPassword"
+                  placeholder="Confirm Password"
                   required
                   autoCapitalize="off"
                 />
               </div>
             </div>
+            {/* Gender */}
             <div className="gender">
               <label>
                 Gender<span>* </span>
@@ -82,6 +88,7 @@ function Signup() {
               <input type="radio" id="female" name="gender" value="female" />
               <label htmlFor="female">Female</label>
             </div>
+            {/* Date of Birth */}
             <div className="gender">
               <label>
                 Date of Birth<span>* </span>
@@ -90,84 +97,86 @@ function Signup() {
             </div>
           </div>
 
+          {/* Residential Information */}
           <div className="residitional-info">
-            <h2>Resedentional Information</h2>
-            <p>Enter Your Resedentional Information</p>
-
+            <h2>Residential Information</h2>
+            <p>Enter Your Residential Information</p>
+            {/* Address Info */}
             <div className="address-info">
+              {/* Social Security No */}
               <div className="address">
-                <div>
-                  <label>
-                    Social Sercurity No<span>*</span>
-                  </label>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="SSN\CNIC\PASSPORT NO"
-                    required
-                    autoCapitalize="off"
-                  />
-                </div>
+                <label htmlFor="ssn">
+                  Social Security No<span>*</span>
+                </label>
+                <input
+                  type="text"
+                  id="ssn"
+                  placeholder="SSN\CNIC\PASSPORT NO"
+                  required
+                  autoCapitalize="off"
+                />
               </div>
+              {/* Address */}
               <div className="address">
-                <div>
-                  <label>
-                    Address<span>*</span>
-                  </label>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Enter Your Address"
-                    required
-                    autoCapitalize="off"
-                  />
-                </div>
+                <label htmlFor="address">
+                  Address<span>*</span>
+                </label>
+                <input
+                  type="text"
+                  id="address"
+                  placeholder="Enter Your Address"
+                  required
+                  autoCapitalize="off"
+                />
               </div>
+              {/* Street */}
               <div className="Street">
                 <div className="street-no">
-                  {" "}
-                  <label>
+                  <label htmlFor="streetNo">
                     Street No<span>*</span>
                   </label>
                   <input
                     type="text"
+                    id="streetNo"
                     placeholder="Street No"
                     required
                     autoCapitalize="off"
                   />
                 </div>
                 <div className="Postal">
-                  <label>
+                  <label htmlFor="postalCode">
                     Postal Code<span>*</span>
                   </label>
                   <input
                     type="tel"
+                    id="postalCode"
                     placeholder="Postal Code"
                     required
                     autoCapitalize="off"
                   />
                 </div>
               </div>
+              {/* Country Code & Phone Number */}
               <div className="Codes">
                 <div className="code">
-                  <label>
+                  <label htmlFor="countryCode">
                     Country Code<span>*</span>
                   </label>
                   <input
                     type="tel"
+                    id="countryCode"
                     placeholder="Code"
                     required
                     autoCapitalize="off"
                   />
                 </div>
                 <div className="phone-no">
-                  <label>
+                  <label htmlFor="phoneNumber">
                     Phone No<span>*</span>
                   </label>
                   <input
                     type="tel"
+                    id="phoneNumber"
                     placeholder="Phone Number"
                     required
                     autoCapitalize="off"
@@ -177,76 +186,64 @@ function Signup() {
             </div>
           </div>
 
+          {/* Bank Information */}
           <div className="bank-info">
             <h2>Bank Information</h2>
             <p>Enter Your Banking Information</p>
-
+            {/* Bank Info */}
             <div className="address-info">
               <div className="address">
-                <div>
-                  <label>
-                    Bank Name<span>*</span>
-                  </label>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="EnterBank Name"
-                    required
-                    autoCapitalize="off"
-                  />
-                </div>
+                <label htmlFor="bankName">
+                  Bank Name<span>*</span>
+                </label>
+                <input
+                  type="text"
+                  id="bankName"
+                  placeholder="Enter Bank Name"
+                  required
+                  autoCapitalize="off"
+                />
               </div>
               <div className="address">
-                <div>
-                  <label>
-                    Account Title<span>*</span>
-                  </label>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Account Title"
-                    required
-                    autoCapitalize="off"
-                  />
-                </div>
+                <label htmlFor="accountTitle">
+                  Account Title<span>*</span>
+                </label>
+                <input
+                  type="text"
+                  id="accountTitle"
+                  placeholder="Account Title"
+                  required
+                  autoCapitalize="off"
+                />
               </div>
-
               <div className="address">
-                <div>
-                  <label>
-                    Account Number<span>*</span>
-                  </label>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Account Number"
-                    required
-                    autoCapitalize="off"
-                  />
-                </div>
+                <label htmlFor="accountNumber">
+                  Account Number<span>*</span>
+                </label>
+                <input
+                  type="text"
+                  id="accountNumber"
+                  placeholder="Account Number"
+                  required
+                  autoCapitalize="off"
+                />
               </div>
-
               <div className="address">
-                <div>
-                  <label>
-                    IBN Number<span>*</span>
-                  </label>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="IBN Number"
-                    required
-                    autoCapitalize="off"
-                  />
-                </div>
+                <label htmlFor="ibnNumber">
+                  IBN Number<span>*</span>
+                </label>
+                <input
+                  type="text"
+                  id="ibnNumber"
+                  placeholder="IBN Number"
+                  required
+                  autoCapitalize="off"
+                />
               </div>
             </div>
+            {/* Register Button */}
             <div className="">
-              <button className="register-btn"> Register</button>
+              <button className="register-btn">Register</button>
             </div>
           </div>
         </form>
