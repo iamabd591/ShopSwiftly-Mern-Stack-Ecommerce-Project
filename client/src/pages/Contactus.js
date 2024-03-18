@@ -3,6 +3,7 @@ import Layout from "../components/layout/Layout";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaMobileAlt, FaClock } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 const Contactus = () => {
   return (
     <Layout>
@@ -60,8 +61,8 @@ const Contactus = () => {
             </p>
           </div>
           <div className="contact-bttn">
-            <button className="login-register-btn">Login</button>
-            <button className="login-register-btn">Register</button>
+            <button className="login-register-btn"><NavLink to={'/signin'} className={"nave-link"}>Login</NavLink></button>
+            <button className="login-register-btn"><NavLink to={'/signup'} className={"nave-link"}>Register</NavLink></button>
           </div>
         </div>
       </div>
