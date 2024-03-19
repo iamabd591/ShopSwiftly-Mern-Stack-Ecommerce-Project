@@ -9,7 +9,7 @@ const Home = () => {
         <div className="first-section">
           {dataList.map((e) => {
             return (
-              <div key ={e.id} className="card">
+              <div key={e.id} className="card">
                 <div className="card-img">
                   <img src={e.image} alt="Product 1" />
                 </div>
@@ -19,10 +19,13 @@ const Home = () => {
                   </div>
                   <div className="card-price">
                     <p>
-                      Price:<span className="price">$50</span>
+                      Price:<span className="price">${e.price}</span>
                     </p>
                     <p>
-                      Stock Available:<span style={{color:e.stock?'green':"red"}} className="stock">{e.stock ? "YES":"NO"}</span>
+                      Stock :
+                      <span className="stock" style={{ color: e.stock ? "green" : "red" }}>
+                        {e.stock ? "Avaliable" : "Not Available"}
+                      </span>
                     </p>
                   </div>
                 </div>
