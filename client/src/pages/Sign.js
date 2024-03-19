@@ -12,10 +12,9 @@ const Sign = () => {
             <h2>Log In </h2>
             <p className="slogan">
               And Enjoy Happy Shopping{" "}
-              <spam>
-                {" "}
+              <span>
                 <TiShoppingCart />
-              </spam>
+              </span>
             </p>
             <div className="input-field">
               <input
@@ -40,28 +39,26 @@ const Sign = () => {
             <div className="form-links">
               <div className="input-check">
                 <input type="checkbox" id="remember" />
-                <lable htmlFor="remember">Remember Me</lable>
+                <label htmlFor="remember">Remember Me</label>
               </div>
-              <div className="fogot-pass">
+              <div className="forgot-pass">
                 <Link to="/forgot" tabIndex="-1">
-                  {" "}
-                  Forgot Password ?
+                  Forgot Password?
                 </Link>
               </div>
             </div>
 
             <div className="login-btn">
-              <button> Log in </button>
+              <button>Log in</button>
             </div>
             <div className="create-account">
               <p>
                 Don't Have an account{" "}
-                <spam>
-                  {" "}
+                <span>
                   <Link to="/signup" tabIndex="-1">
                     Click Here
                   </Link>
-                </spam>
+                </span>
               </p>
             </div>
           </form>
