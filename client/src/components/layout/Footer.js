@@ -1,14 +1,12 @@
 import React from "react";
 import {
   FaShopify,
-  FaXTwitter,
   FaCcPaypal,
   FaCcVisa,
   FaCcMastercard,
   FaGooglePay,
   FaCcApplePay,
-  FaLocationDot,
-} from "react-icons/fa6";
+} from "react-icons/fa";
 import { SiAmericanexpress } from "react-icons/si";
 import { NavLink } from "react-router-dom";
 import {
@@ -20,6 +18,8 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { FaXTwitter, FaLocationDot } from "react-icons/fa6";
+
 export default function Footer() {
   return (
     <>
@@ -40,55 +40,28 @@ export default function Footer() {
           <div className="Social">
             <ul>
               <li>
-                <div className="whatsapp icons">
-                  <FaWhatsapp />
-                </div>
+                <FaWhatsapp className="whatsapp" />
               </li>
-            </ul>
-
-            <ul>
               <li>
-                <div className="facebook icons">
-                  <FaFacebook />
-                </div>
+                <FaFacebook className="facebook" />
               </li>
-            </ul>
-
-            <ul>
               <li>
-                <div className="instagram icons">
-                  <FaInstagramSquare />
-                </div>
+                <FaInstagramSquare className="instagram" />
               </li>
-            </ul>
-
-            <ul>
               <li>
-                <div className="linked icons">
-                  <FaLinkedin />
-                </div>
+                <FaLinkedin className="linked" />
               </li>
-            </ul>
-
-            <ul>
               <li>
-                <div className="twitter icons">
-                  <FaXTwitter />
-                </div>
+                <FaXTwitter className="twitter" />
               </li>
-            </ul>
-
-            <ul>
               <li>
-                <div className="youtube icons">
-                  <FaYoutube />
-                </div>
+                <FaYoutube className="youtube" />
               </li>
             </ul>
           </div>
         </div>
         <div className="Footer-Nav">
-          <h4>Quick Links</h4>
+          <h4>Swift Links</h4>
           <div className="links-nave">
             <div className="nav">
               <ul>
@@ -124,7 +97,6 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-
             <div className="nav">
               <ul>
                 <li>
@@ -144,7 +116,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <NavLink to="/feadback" className="nav-link">
-                    FeadBack
+                    Feedback
                   </NavLink>
                 </li>
                 <li>
@@ -166,72 +138,40 @@ export default function Footer() {
             <ul>
               <li>
                 <p>
-                  <span>
-                    <MdEmail />
-                  </span>{" "}
-                  Info@ShopSwifly.com
+                  <MdEmail /> Info@ShopSwifly.com
                 </p>
               </li>
-            </ul>
-            <ul>
               <li>
                 <p>
-                  <span>
-                    <FaLocationDot />
-                  </span>{" "}
-                  15205 North Kierland Blvd. Suite 100
+                  <FaLocationDot /> 15205 North Kierland Blvd. Suite 100
                 </p>
               </li>
-            </ul>
-
-            <ul>
               <li>
                 <p>
-                  <span>
-                    <FaMobileAlt />
-                  </span>{" "}
-                  +241 789256 3773
+                  <FaMobileAlt /> +241 789256 3773
                 </p>
               </li>
             </ul>
           </div>
-
           <div className="method">
             <ul>
               <li>
-                <div className="paypal">
-                  <FaCcPaypal />
-                </div>
+                <FaCcPaypal className="paypal" />
               </li>
-
               <li>
-                <div className="visa">
-                  <FaCcVisa />
-                </div>
+                <FaCcVisa className="visa" />
               </li>
-
               <li>
-                <div className="aexpress">
-                  <SiAmericanexpress />
-                </div>
+                <SiAmericanexpress className="aexpress" />
               </li>
-
               <li>
-                <div className="mcard">
-                  <FaCcMastercard />
-                </div>
+                <FaCcMastercard className="mcard" />
               </li>
-
               <li>
-                <div className="gpay">
-                  <FaGooglePay />
-                </div>
+                <FaGooglePay className="gpay" />
               </li>
-
               <li>
-                <div className="apay">
-                  <FaCcApplePay />
-                </div>
+                <FaCcApplePay className="apay" />
               </li>
             </ul>
           </div>

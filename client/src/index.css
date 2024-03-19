@@ -134,10 +134,14 @@ section ul {
   cursor: pointer;
 }
 .info p {
-  font-size: 22px;
+  font-size: 15px;
   width: 100%;
   color: #fff;
   text-align: justify;
+}
+.info h2 span {
+  color: #fff !important;
+  font-size: 30px;
 }
 .Footer-Nav {
   width: 35%;
@@ -152,7 +156,7 @@ section ul {
   height: 100%;
 }
 .Footer-Nav h4 {
-  font-size: 40px;
+  font-size: 30px;
   text-decoration: none;
   color: #fff;
   padding: 8px;
@@ -166,10 +170,10 @@ section ul {
   list-style: none;
 }
 .Footer-Nav .nav ul li .nav-link {
-  color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  font-size: 18px;
+  color: #ffffff !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  font-size: 15px !important;
 }
 .Footer-Nav .nav ul li .nav-link:hover {
   text-decoration: underline;
@@ -186,7 +190,7 @@ section ul {
   cursor: pointer;
 }
 .youtube {
-  color: #ff0000;
+  color: #ff0000 !important;
 }
 .facebook {
   color: #2566e9;
@@ -212,13 +216,15 @@ section ul {
   width: 100%;
   height: 50%;
 }
+.infomation ul {
+  margin-top: 70px;
+}
 .infomation ul li {
   list-style-type: none;
   margin: 5px;
   font-size: 20px;
 }
 .infomation ul li p {
-  font-weight: bold;
   font-size: 20px;
   color: #fff;
 }
@@ -257,7 +263,7 @@ section ul {
   color: #ffffff;
 }
 .rights h4 {
-  font-size: 25px;
+  font-size: 18px;
   color: #fff;
 }
 
