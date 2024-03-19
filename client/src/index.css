@@ -1,9 +1,10 @@
-/*@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap")*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Poppins;
 }
 
 section {
@@ -27,13 +28,14 @@ section ul {
 .logo {
   font-size: 50px;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 500;
   color: #fff;
   height: 100%;
 }
 
 .logo span {
   color: rgb(255, 255, 255);
+  font-size: 50px;
 }
 
 .serach-bar {
@@ -53,29 +55,35 @@ section ul {
   height: 50px;
 }
 
-.account .nav-item p {
+.account .nav-link p {
   width: 300px;
   height: 100%;
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 700;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  font-weight: 500;
   margin: 10px;
 }
 
-.account .nav-item p span {
+.account .nav-link p span {
   margin-left: 15px;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.Shopping .nav-item p {
+.Shopping .nav-link p {
   width: 130px;
   height: 100%;
   color: #ffffff;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
   margin: 10px;
 }
-.Shopping .nav-item p span {
-  margin-left: 8px;
+.Shopping .nav-link p span {
+  margin-left: 10px;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 500;
 }
 .navbar {
   font-size: 20px;
@@ -93,6 +101,7 @@ section ul {
 .nav-link {
   font-size: 15px;
   text-align: center;
+  margin-right: 2px;
 }
 .nav-link:hover {
   color: #ffffff !important;
@@ -458,10 +467,9 @@ span {
   padding: 12px 8px;
   font-size: 24px;
   font-weight: 500;
- 
 }
-.slogan span{
-  color:#fff !important;
+.slogan span {
+  color: #fff !important;
   font-size: 30px;
 }
 .main .form-div .input-field {
@@ -734,7 +742,6 @@ textarea {
   align-items: center;
   flex-wrap: wrap;
   padding: 16px 14px;
- 
 }
 .card {
   width: 25%;
