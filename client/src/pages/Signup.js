@@ -11,11 +11,8 @@ function Signup() {
             <h2>Personal Information</h2>
             <p>Enter Your Personal Information</p>
             <div className="name">
-              {/* First Name */}
               <div className="first-name">
-                <label htmlFor="firstName">
-                  First Name<span>*</span>
-                </label>
+                <label htmlFor="firstName">First Name<span>*</span></label>
                 <input
                   type="text"
                   id="firstName"
@@ -24,11 +21,8 @@ function Signup() {
                   autoCapitalize="off"
                 />
               </div>
-              {/* Last Name */}
               <div className="last-name">
-                <label htmlFor="lastName">
-                  Last Name<span>*</span>
-                </label>
+                <label htmlFor="lastName">Last Name<span>*</span></label>
                 <input
                   type="text"
                   id="lastName"
@@ -38,11 +32,8 @@ function Signup() {
                 />
               </div>
             </div>
-            {/* Email */}
             <div className="email">
-              <label htmlFor="email">
-                Email<span>*</span>
-              </label>
+              <label htmlFor="email">Email<span>*</span></label>
               <input
                 type="email"
                 id="email"
@@ -51,12 +42,9 @@ function Signup() {
                 autoComplete="off"
               />
             </div>
-            {/* Password */}
             <div className="password-field">
               <div className="Password">
-                <label htmlFor="password">
-                  Password<span>*</span>
-                </label>
+                <label htmlFor="password">Password<span>*</span></label>
                 <input
                   type="password"
                   id="password"
@@ -66,9 +54,7 @@ function Signup() {
                 />
               </div>
               <div className="Cpassword">
-                <label htmlFor="confirmPassword">
-                  Confirm Password<span>*</span>
-                </label>
+                <label htmlFor="confirmPassword">Confirm Password<span>*</span></label>
                 <input
                   type="password"
                   id="confirmPassword"
@@ -78,21 +64,15 @@ function Signup() {
                 />
               </div>
             </div>
-            {/* Gender */}
             <div className="gender">
-              <label>
-                Gender<span>* </span>
-              </label>
+              <label>Gender<span>* </span></label>
               <input type="radio" id="male" name="gender" value="male" />
               <label htmlFor="male">Male</label>
               <input type="radio" id="female" name="gender" value="female" />
               <label htmlFor="female">Female</label>
             </div>
-            {/* Date of Birth */}
             <div className="gender">
-              <label>
-                Date of Birth<span>* </span>
-              </label>
+              <label>Date of Birth<span>* </span></label>
               <input type="date" />
             </div>
           </div>
@@ -101,13 +81,9 @@ function Signup() {
           <div className="residitional-info">
             <h2>Residential Information</h2>
             <p>Enter Your Residential Information</p>
-            {/* Address Info */}
             <div className="address-info">
-              {/* Social Security No */}
               <div className="address">
-                <label htmlFor="ssn">
-                  Social Security No<span>*</span>
-                </label>
+                <label htmlFor="ssn">Social Security No<span>*</span></label>
                 <input
                   type="text"
                   id="ssn"
@@ -116,11 +92,8 @@ function Signup() {
                   autoCapitalize="off"
                 />
               </div>
-              {/* Address */}
               <div className="address">
-                <label htmlFor="address">
-                  Address<span>*</span>
-                </label>
+                <label htmlFor="address">Address<span>*</span></label>
                 <input
                   type="text"
                   id="address"
@@ -129,12 +102,9 @@ function Signup() {
                   autoCapitalize="off"
                 />
               </div>
-              {/* Street */}
               <div className="Street">
                 <div className="street-no">
-                  <label htmlFor="streetNo">
-                    Street No<span>*</span>
-                  </label>
+                  <label htmlFor="streetNo">Street No<span>*</span></label>
                   <input
                     type="text"
                     id="streetNo"
@@ -144,9 +114,7 @@ function Signup() {
                   />
                 </div>
                 <div className="Postal">
-                  <label htmlFor="postalCode">
-                    Postal Code<span>*</span>
-                  </label>
+                  <label htmlFor="postalCode">Postal Code<span>*</span></label>
                   <input
                     type="tel"
                     id="postalCode"
@@ -156,12 +124,9 @@ function Signup() {
                   />
                 </div>
               </div>
-              {/* Country Code & Phone Number */}
               <div className="Codes">
                 <div className="code">
-                  <label htmlFor="countryCode">
-                    Country Code<span>*</span>
-                  </label>
+                  <label htmlFor="countryCode">Country Code<span>*</span></label>
                   <input
                     type="tel"
                     id="countryCode"
@@ -171,9 +136,7 @@ function Signup() {
                   />
                 </div>
                 <div className="phone-no">
-                  <label htmlFor="phoneNumber">
-                    Phone No<span>*</span>
-                  </label>
+                  <label htmlFor="phoneNumber">Phone No<span>*</span></label>
                   <input
                     type="tel"
                     id="phoneNumber"
@@ -190,12 +153,9 @@ function Signup() {
           <div className="bank-info">
             <h2>Bank Information</h2>
             <p>Enter Your Banking Information</p>
-            {/* Bank Info */}
             <div className="address-info">
               <div className="address">
-                <label htmlFor="bankName">
-                  Bank Name<span>*</span>
-                </label>
+                <label htmlFor="bankName">Bank Name<span>*</span></label>
                 <input
                   type="text"
                   id="bankName"
@@ -205,9 +165,7 @@ function Signup() {
                 />
               </div>
               <div className="address">
-                <label htmlFor="accountTitle">
-                  Account Title<span>*</span>
-                </label>
+                <label htmlFor="accountTitle">Account Title<span>*</span></label>
                 <input
                   type="text"
                   id="accountTitle"
@@ -217,9 +175,7 @@ function Signup() {
                 />
               </div>
               <div className="address">
-                <label htmlFor="accountNumber">
-                  Account Number<span>*</span>
-                </label>
+                <label htmlFor="accountNumber">Account Number<span>*</span></label>
                 <input
                   type="text"
                   id="accountNumber"
@@ -229,9 +185,7 @@ function Signup() {
                 />
               </div>
               <div className="address">
-                <label htmlFor="ibnNumber">
-                  IBN Number<span>*</span>
-                </label>
+                <label htmlFor="ibnNumber">IBN Number<span>*</span></label>
                 <input
                   type="text"
                   id="ibnNumber"
@@ -241,7 +195,6 @@ function Signup() {
                 />
               </div>
             </div>
-            {/* Register Button */}
             <div className="">
               <button className="register-btn">Register</button>
             </div>
