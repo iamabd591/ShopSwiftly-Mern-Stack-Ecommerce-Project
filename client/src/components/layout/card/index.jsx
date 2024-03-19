@@ -11,7 +11,7 @@ const Card = ({ id, image, title, price, stock }) => (
         <p>
           Price:<span className="price">${price}</span>
         </p>
-        <p>
+        <p className="stock">
           Stock :
           <span className="stock" style={{ color: stock ? "green" : "red" }}>
             {stock ? "Available" : "Not Available"}

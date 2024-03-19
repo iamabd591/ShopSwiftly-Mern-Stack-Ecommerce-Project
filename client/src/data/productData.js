@@ -61,6 +61,13 @@ const dataList = [
     price: 2999.99,
     stock: true,
   },
+  {
+    id: 9,
+    title: "Chuck Taylor All Star Leather",
+    image: "/various-hi-tech-devices-table_140725-9010.jpg?t=st=1710834058~exp=1710837658~hmac=b6ce22455d26e6820c515ba7561d340a6e87f5fd8bd857c8d4fc1bab12248f81&w=740",
+    price: 2999.99,
+    stock: true,
+  },
 ];
 
 // Prepend base URL to image URLs
