@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout/Layout/";
 import dataList from "../data/productData.js";
 import Card from "../components/layout/card";
-import banner from "../components/layout/banner/index.jsx";
+import Banner from "../components/layout/banner/index.jsx";
 
 const Home = () => {
   return (
@@ -13,9 +13,9 @@ const Home = () => {
             return (
               <>
                 {product.type === "product" ? (
-                  <Card {...product} />
+                  <Card key={product.id} {...product} />
                 ) : (
-                  <banner {...banner} />
+                  <Banner key={product.id} {...product} />
                 )}
               </>
             );

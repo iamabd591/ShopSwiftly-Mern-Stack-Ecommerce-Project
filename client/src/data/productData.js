@@ -37,13 +37,6 @@ const dataList = [
     type: "product",
   },
   {
-    id: 1,
-    title: "1 banner",
-    image:
-      "https://marketplace.canva.com/EAE9vz8U05s/1/0/1600w/canva-beauty-product-banner-%28landscape%29-fkdqUMSbEP0.jpg",
-    type: "banner",
-  },
-  {
     id: 5,
     title: "Chuck Taylor All Star Leather",
     image:
@@ -85,13 +78,22 @@ const dataList = [
     stock: true,
     type: "product",
   },
+  {
+    id: 1,
+    title: "1 banner",
+    image:
+      "https://marketplace.canva.com/EAE9vz8U05s/1/0/1600w/canva-beauty-product-banner-%28landscape%29-fkdqUMSbEP0.jpg",
+    type: "banner",
+  },
 ];
 
+// const productUrl = dataList.image;
 // Prepend base URL to image URLs
 dataList.forEach((item) => {
-  dataList.forEach((item) => {
+  if (item.type === "product") {
     item.image = `${BASE_URL}${item.image}`;
-  });
+  }
 });
+
 
 export default dataList;
